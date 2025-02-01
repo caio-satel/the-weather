@@ -8,11 +8,13 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ClimaHomeComponent } from './modules/clima/page/clima-home/clima-home.component';
+import { WeatherCardComponent } from './modules/clima/components/weather-card/weather-card.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ClimaHomeComponent
+    ClimaHomeComponent,
+    WeatherCardComponent
   ],
   imports: [
     BrowserModule,
